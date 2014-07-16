@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/ourapp" >
+        <file alias="zoomin_icon">resources/mActionZoomIn.png</file>
+	<file alias="zoomout_icon">resources/mActionZoomOut.png</file>
+	<file alias="pan_icon">resources/Hands-Hand-icon.png</file>
+	<file alias="rectangle_icon">resources/rectangle.png</file>
+    </qresource>
+</RCC>

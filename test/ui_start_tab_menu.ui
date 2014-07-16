@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TabWidget</class>
+ <widget class="QTabWidget" name="TabWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>494</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TabWidget</string>
+  </property>
+  <property name="currentIndex">
+   <number>0</number>
+  </property>
+  <widget class="QWidget" name="tab_2">
+   <attribute name="title">
+    <string>NEW PROJECT</string>
+   </attribute>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>221</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QSplitter" name="splitter">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>201</width>
+       <height>161</height>
+      </rect>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Selectionner Nom du Projet</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="editProjectName">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Selectionner Répertoire Projet</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="editDirName">
+      <property name="text">
+       <string>/home/pierre/Bureau</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btnSelectPath">
+      <property name="text">
+       <string>Selection Répertoire Projet</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>180</y>
+       <width>201</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Selectionner Zone Cliente</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>200</y>
+       <width>78</width>
+       <height>25</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>230</y>
+       <width>201</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Extraction</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnExtraction">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>250</y>
+       <width>201</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Extraction</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>340</y>
+       <width>169</width>
+       <height>29</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QCheckBox" name="checkBox">
+        <property name="text">
+         <string>check</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="btnProjectValidation">
+        <property name="text">
+         <string>Valide Projet</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_3">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>20</y>
+      <width>351</width>
+      <height>401</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QWidget" name="gridLayoutWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>9</x>
+       <y>29</y>
+       <width>331</width>
+       <height>251</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2"/>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="tab">
+   <attribute name="title">
+    <string>VIEW</string>
+   </attribute>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>420</y>
+      <width>87</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>PushButton</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_2">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>20</y>
+      <width>481</width>
+      <height>401</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QWidget" name="gridLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>9</x>
+       <y>29</y>
+       <width>461</width>
+       <height>361</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout"/>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
